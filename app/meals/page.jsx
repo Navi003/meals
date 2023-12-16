@@ -5,6 +5,11 @@ import MealsGrid from "@/component/meals/MealsGrid";
 
 import { getMeals } from "@/lib/meals";
 
+export const metadata = {
+  title: "All Meals",
+  description: "Browse all Meals added by our community",
+};
+
 function Meals() {
   const meals = getMeals();
 
